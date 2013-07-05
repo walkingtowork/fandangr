@@ -4,6 +4,7 @@ class CreateMovies < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.integer :theater_id
+      t.integer :ticket_id
 
       t.timestamps
     end

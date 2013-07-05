@@ -4,7 +4,6 @@ class CreateSeats < ActiveRecord::Migration
       t.string :location
       t.integer :showtime_id
       t.integer :user_id
-      t.float :price
 
       t.timestamps
     end
